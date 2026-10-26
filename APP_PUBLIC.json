@@ -1,0 +1,59 @@
+{
+  "slug": "deadline-planner",
+  "url": "https://nanalab.kr/deadline-planner/",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "locales": {
+    "ko": {
+      "name": "과제 마감 역산",
+      "description": "작업 예상시간·우선순위·일별 가용시간·버퍼로 공통 마감부터 역산하고 미배정 시간을 확인하세요.",
+      "image_alt": "과제 마감 역산"
+    },
+    "en": {
+      "name": "Deadline Planner",
+      "description": "Work backward from a shared deadline using task estimates, priorities, daily availability and buffers, and review unallocated time.",
+      "image_alt": "Deadline Planner"
+    },
+    "es": {
+      "name": "Planificador de entregas",
+      "description": "Planifica hacia atrás desde una fecha común con estimaciones, prioridades, disponibilidad diaria y márgenes, y revisa el tiempo sin asignar.",
+      "image_alt": "Planificador de entregas"
+    },
+    "zh": {
+      "name": "作业截止倒排计划",
+      "description": "根据任务预计时长、优先级、每日可用时间与缓冲，从共同截止日倒排并查看未分配时长。",
+      "image_alt": "作业截止倒排计划"
+    },
+    "ja": {
+      "name": "課題の締切逆算プラン",
+      "description": "作業時間・優先度・日別の空き時間・余裕を設定し、共通の締切から逆算して未配分時間を確認できます。",
+      "image_alt": "課題の締切逆算プラン"
+    },
+    "de": {
+      "name": "Abgabeplaner",
+      "description": "Planen Sie von einer gemeinsamen Frist rückwärts mit Aufwand, Prioritäten, Tageskapazitäten und Puffern und prüfen Sie nicht zugewiesene Zeit.",
+      "image_alt": "Abgabeplaner"
+    },
+    "fr": {
+      "name": "Planificateur d'échéances",
+      "description": "Planifiez à rebours depuis une échéance commune selon les durées, priorités, disponibilités quotidiennes et marges, et repérez le temps non affecté.",
+      "image_alt": "Planificateur d'échéances"
+    },
+    "pt": {
+      "name": "Planejador de prazos",
+      "description": "Planeje de trás para a frente a partir de um prazo comum com estimativas, prioridades, disponibilidade diária e margens e confira o tempo não alocado.",
+      "image_alt": "Planejador de prazos"
+    },
+    "ru": {
+      "name": "Планировщик дедлайнов",
+      "description": "Планируйте назад от общего срока с учётом длительности задач, приоритетов, доступных часов по дням и запаса и проверяйте нераспределённое время.",
+      "image_alt": "Планировщик дедлайнов"
+    }
+  }
+}

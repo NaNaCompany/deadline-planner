@@ -1,0 +1,66 @@
+{
+  "ideaId": "S028",
+  "slug": "deadline-planner",
+  "title": "과제 마감 역산",
+  "ready": true,
+  "summary": "작업 분해·우선순위·수동 일별 가용시간·추가 버퍼를 사용한 마감 역산과 미배정 시간 표시",
+  "features": [
+    "작업 추가/삭제·이름·예상시간·우선순위 1–5",
+    "시작일·공통 마감일·작업별 추가 버퍼",
+    "주말/휴일 포함 일별 가용시간 직접 입력",
+    "마지막 가용일부터 역산한 일별 실행표",
+    "작업별 배정·미배정 및 불가능 일정 명시",
+    "원문 HTML 미삽입·수식 안전 CSV/복사",
+    "한국어·영어·스페인어·중국어·일본어·독일어"
+  ],
+  "tests": [
+    {
+      "name": "node --check dist/core.js and dist/app.js",
+      "pass": true
+    },
+    {
+      "name": "Node backward allocation, exact buffer, priority and explicit shortfall fixtures",
+      "pass": true
+    },
+    {
+      "name": "Node conservative rounding, invalid date/window/capacity/duplicate/tasks fixtures",
+      "pass": true
+    },
+    {
+      "name": "Node formula-safe quoted CSV and six complete locale catalogs/routes",
+      "pass": true
+    },
+    {
+      "name": "All six static localized HTML titles, correct html lang and exactly one ko/en/es/zh/ja/de menu identity",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "브라우저 시각 QA 미실시",
+    "모든 작업이 공통 마감일을 갖는 독립·분할 가능 작업이라는 가정",
+    "작업 선후관계·개별 마감·시간대별 충돌 미반영",
+    "휴일/주말 가용시간은 사용자가 직접 입력",
+    "최대 30작업·366일·1900–2100년",
+    "완료 보장이 아닌 사용자 입력 기반 계획"
+  ],
+  "sources": [
+    "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#dates"
+  ],
+  "entry": "dist/index.html",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "languageRoutes": {
+    "ko": "/",
+    "en": "/en/",
+    "es": "/es/",
+    "zh": "/zh/",
+    "ja": "/ja/",
+    "de": "/de/"
+  }
+}
